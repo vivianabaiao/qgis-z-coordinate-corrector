@@ -1,0 +1,48 @@
+[general]
+name=Z-Coordinate Corrector Enhanced
+qgisMinimumVersion=3.0
+qgisMaximumVersion=3.99
+description=Professional Z-coordinate correction tool with verification, iteration, intersection detection, and comprehensive reporting
+version=2.0
+author=Your Name
+email=your.email@example.com
+
+about=Enhanced Z-coordinate correction tool for line shapefiles with Z coordinates. 
+    Features:
+    - Automatic intersection detection and vertex insertion
+    - Iterative correction workflow with quick verification
+    - Internal corrections (MINIMUM Z rule)
+    - Contour corrections (align with reference contours)
+    - Progress tracking with time estimates
+    - Comprehensive quality verification (0 differences check)
+    - Three export files: shapefile + correction log + summary report
+    - Color-coded UI with professional feedback
+    
+    Perfect for topographic data, terrain modeling, and 3D GIS applications.
+
+tracker=https://github.com/yourusername/z-corrector-enhanced/issues
+repository=https://github.com/yourusername/z-corrector-enhanced
+homepage=https://github.com/yourusername/z-corrector-enhanced
+
+changelog=
+    2.0 - Enhanced Edition
+        - Added intersection detection with vertex insertion
+        - Implemented iterative correction workflow
+        - Added progress indicators throughout
+        - Enhanced reporting (3 files: SHP, CSV, TXT)
+        - Color-coded UI with smart button management
+        - Complete verification before export
+        - Quick verify after each correction
+    1.0 - Initial Release
+        - Basic detection and correction
+        - Simple verification
+        - CSV export
+
+tags=vector,3d,z-coordinate,correction,quality,verification,topology,terrain,elevation
+category=Vector
+icon=icon.png
+experimental=False
+deprecated=False
+
+hasProcessingProvider=no
+server=False
