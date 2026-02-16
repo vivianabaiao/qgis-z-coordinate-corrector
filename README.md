@@ -129,25 +129,6 @@ Why minimum? It's the conservative approach - better to underestimate elevation 
 - DXF to shapefile converter
 - Auto-load exported layers to map
 
-## Common Questions
-
-**Q: What if I only have one shapefile?**  
-A: Use internal corrections only. Skip external corrections.
-
-**Q: What if I don't have contour lines?**  
-A: Skip Tab 4 entirely. It's optional.
-
-**Q: How long does it take?**  
-A: Depends on data size:
-- Small (1,000 features): Seconds
-- Medium (10,000 features): ~1 minute
-- Large (100,000 features): ~5 minutes
-
-**Q: Will it change my original files?**  
-A: No. It creates new corrected files. Your originals stay untouched.
-
-**Q: What's the tolerance?**  
-A: Very precise (0.000001 meters for geometry, 0.0000000001 for Z-values).
 
 ## Output Files
 
