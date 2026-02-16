@@ -80,7 +80,7 @@ Why minimum? It's the conservative approach - better to underestimate elevation 
 
 ## Installation
 
-1. Download `z_coordinate_corrector_enhanced.py`
+1. Download `z_coordinate_corrector_enhanced.py`, `__init__.py` and `metadata.txt`
 
 2. Copy to your QGIS plugins folder:
    - **Windows**: `C:\Users\YourName\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins\z_corrector_enhanced\`
